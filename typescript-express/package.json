@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.ts",
+    "container": "tsc && cp ./src/swagger.json ./build && node build/server.js",
+    "test-leak": "nodemon src/server-leak.ts",
     "build": "rm -rf build/ && prettier --write source/ && tsc"
   },
   "keywords": [],

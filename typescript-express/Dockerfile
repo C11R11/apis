@@ -1,8 +1,5 @@
 FROM node:12-alpine
 
-#This is for slim image
-#RUN apt update; apt install
-
 #this is for alphine image
 RUN apk --update add bash nano
 
@@ -11,4 +8,4 @@ COPY . .
 
 #Now install all packages for the project
 RUN npm i
-CMD npm run dev
+CMD npm run container
