@@ -1,6 +1,10 @@
 # Typescript api template
 
-There's a massive memory leak when you run with docker container. but in local machine it's ok
+Ready to go with Docker images and using docker compose as well. Some swagger definition work done but not finished yet
+
+# To do
+
+-  End api documentation (automate swagger file generation)
 
 # Stack used
 
